@@ -1,0 +1,87 @@
+body {
+    background: url(http://cdn.wallpapersafari.com/39/17/6TcAkj.png) no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+h1 {
+ font-size: 42px;
+ font-family: 'Playfair Display', serif;
+ color: #000;
+ text-align: center;
+ font-weight: 100;
+    background-color: azure;
+}
+
+.row {
+   padding-top: 40px;
+}
+
+
+
+img {
+    
+    height: 330px;
+    width: 290px;    
+}
+
+
+textarea {
+    margin-top: 10px;
+    width: 400px;
+}
+
+
+textarea.form-control {
+   font-size: 33px;
+}
+
+
+
+
+img {
+    width:301px;
+    height: 3
+}
+
+h2 {
+    font-family:'Roboto', sans-serif;
+    text-decoration: underline;
+}
+p {
+    font-size: 33px;
+}
+
+
+
+.jumbotron {
+
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+   opacity: 0.1;
+padding-bottom: 24px; 
+}
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
+
