@@ -1,11 +1,15 @@
 body {
-    background: url(http://cdn.wallpapersafari.com/39/17/6TcAkj.png) no-repeat center center fixed; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    background-color: #D3D3D3;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat:no-repeat;
-    
+    background-repeat: no-repeat;
+    color: black;
+}
+
+legend {
+    color: black;
 }
 
 nav {
@@ -16,72 +20,69 @@ nav {
     font-family: 'Oswald', sans-serif;
 }
 
-
-
 h1 {
- font-size: 42px;
- font-family: 'Playfair Display', serif;
- color: #000;
- text-align: center;
- font-weight: 100;
-    background-color: azure;
+    font-size: 45px;
+    font-family: 'Barrio', cursive;
+    color: #000;
+    text-align: center;
+    font-weight: 100;
 }
 
 .row {
-   padding-top: 40px;
+    padding-top: 40px;
 }
-
-
 
 img {
-    
     height: 330px;
-    width: 290px;    
+    width: 290px;
 }
-
 
 textarea {
     margin-top: 10px;
     width: 400px;
 }
 
-
 textarea.form-control {
-   font-size: 33px;
+    font-size: 33px;
 }
 
-
-
-
 img {
-    width:301px;
+    width: 301px;
     height: 3
 }
 
 h2 {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
+
 p {
     font-size: 33px;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
-
-
 
 .jumbotron {
+    color: #FFF;
+    border-radius: 0px;
+}
 
-color: #FFF;
-border-radius: 0px;
+.jumbotron-sm {
+    padding-top: 24px;
+    opacity: 0.1;
+    padding-bottom: 24px;
 }
-.jumbotron-sm { padding-top: 24px;
-   opacity: 0.1;
-padding-bottom: 24px; 
-}
+
 .jumbotron small {
-color: #FFF;
+    color: #FFF;
 }
+
 .h1 small {
-font-size: 24px;
+    font-size: 24px;
 }
 
 
+.btn-primary {
+        margin-top: -40px;
+
+}
