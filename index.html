@@ -11,15 +11,33 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
 
+<div style="display:none;" id="myDiv" class="animate-bottom">
 
     <my-nav></my-nav>
 
-    <ng-view></ng-view>
+    <ng-view ></ng-view>
+    </div>
+<!--
+    <script>
+        var myVar;
 
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+-->
 
     <!--
     <h1> Spell Check </h1>
